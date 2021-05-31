@@ -5,16 +5,14 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:path_provider/path_provider.dart';
 
-
 class HomePager extends StatefulWidget {
   @override
   _HomePagerState createState() => _HomePagerState();
 }
 
 class _HomePagerState extends State<HomePager> {
-
-  var sum=0;
-  List valores = [0,0,0,0,0,0,0,0,0,0,0,0];
+  var sum = 0;
+  List valores = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
   Future<File> getFile() async {
     final directory = await getApplicationDocumentsDirectory();
@@ -23,7 +21,7 @@ class _HomePagerState extends State<HomePager> {
 
   Future<File> saveData() async {
     String data = json.encode(valores);
-    final file = await  getFile();
+    final file = await getFile();
     return file.writeAsString(data);
   }
 
@@ -36,45 +34,29 @@ class _HomePagerState extends State<HomePager> {
     }
   }
 
-
-
-  /* void addDia ( int value, int index){
-    setState(() {
-      Map<String, dynamic> novoDia = Map();
-      novoDia["dia"] = 0;
-      novoDia["mes"] = index;
-      valores.add(novoDia);
-      _saveData();
-    });
-  }*/
-
   @override
   void initState() {
     super.initState();
 
-    readData().then((data){
+    readData().then((data) {
       setState(() {
         valores = json.decode(data);
         valores.forEach((e) => sum += e);
       });
     });
-
-
   }
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       backgroundColor: Colors.white,
       body: DefaultTabController(
         length: choices.length,
         child: FutureBuilder(
           future: readData(),
-           builder: (context, index){
+          builder: (context, index) {
             return NestedScrollView(
               headerSliverBuilder: (context, value) {
-
                 return [
                   SliverAppBar(
                       backgroundColor: Colors.purple,
@@ -100,7 +82,9 @@ class _HomePagerState extends State<HomePager> {
                           Text(
                             "${sum.toString()} dias",
                             style: GoogleFonts.montserrat(
-                                color: Colors.white, fontWeight: FontWeight.bold, fontSize: 50),
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 50),
                           ),
                           Text(
                             "estudando flutter",
@@ -117,44 +101,45 @@ class _HomePagerState extends State<HomePager> {
                 children: [
                   func(0, setState),
                   func(1, setState),
-                  func(2,  setState),
+                  func(2, setState),
                   func(3, setState),
                   func(4, setState),
                   func(5, setState),
-                  func(6,  setState),
-                  func(7,  setState),
-                  func(8,  setState),
+                  func(6, setState),
+                  func(7, setState),
+                  func(8, setState),
                   func(9, setState),
                   func(10, setState),
                   func(11, setState),
                 ],
               ),
             );
-           },
+          },
         ),
       ),
     );
   }
 
-
   Widget func(int index, Function setState) {
-
     return Container(
       child: Center(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(valores[index].toString(), style: GoogleFonts.montserrat(
-                fontSize: 80, color: Colors.purple),),
-            SizedBox(height: 20,),
+            Text(
+              valores[index].toString(),
+              style: GoogleFonts.montserrat(fontSize: 80, color: Colors.purple),
+            ),
+            SizedBox(
+              height: 20,
+            ),
             // ignore: deprecated_member_use
             Container(
               width: 100,
               decoration: BoxDecoration(
                   color: Colors.purple,
-                  borderRadius: BorderRadius.circular(25)
-              ),
+                  borderRadius: BorderRadius.circular(25)),
               // ignore: deprecated_member_use
               child: FlatButton(
                 onPressed: () {
@@ -166,8 +151,10 @@ class _HomePagerState extends State<HomePager> {
                     });
                   }
                 },
-                child: Text("Adicionar",
-                  style: GoogleFonts.montserrat(color: Colors.white),),
+                child: Text(
+                  "Adicionar",
+                  style: GoogleFonts.montserrat(color: Colors.white),
+                ),
               ),
             ),
             SizedBox(
@@ -177,8 +164,7 @@ class _HomePagerState extends State<HomePager> {
               width: 100,
               decoration: BoxDecoration(
                   color: Colors.purple,
-                  borderRadius: BorderRadius.circular(25)
-              ),
+                  borderRadius: BorderRadius.circular(25)),
               // ignore: deprecated_member_use
               child: FlatButton(
                 onPressed: () {
@@ -190,8 +176,10 @@ class _HomePagerState extends State<HomePager> {
                     });
                   }
                 },
-                child: Text("Remover",
-                  style: GoogleFonts.montserrat(color: Colors.white),),
+                child: Text(
+                  "Remover",
+                  style: GoogleFonts.montserrat(color: Colors.white),
+                ),
               ),
             )
           ],
@@ -199,5 +187,4 @@ class _HomePagerState extends State<HomePager> {
       ),
     );
   }
-
 }
