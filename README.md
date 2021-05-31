@@ -9,7 +9,7 @@
  
  ## Download do Aplicativo (APK)
 Baixe e instale o aplicativo em seu smartphone *Android*:
-[Download APK](https://drive.google.com/u/0/uc?id=1wvfmVJIbdcVNF4TPbCxRm4pBHjqDLwI1&export=download)
+[Download APK](https://drive.google.com/u/0/uc?id=1zMeR5wIg3mq7tfEDKqKn-Bo6f4V-iSWX&export=download)
  
  ## Aprendizado
 * Utilização do widget `NestedScrollView`.
