@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a6ee60ad-9758-4e26-961f-94c5ae600239" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="emulador" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pqs4mVvd3EXSiP87zeIx27oByd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="emulator-5554" />
+    <property name="DEBUGGABLE_PROCESS" value="br.com.adelmoaquino.contador_pessoas" />
+    <property name="DEBUGGER_ID" value="Java" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6ee60ad-9758-4e26-961f-94c5ae600239" name="Default Changelist" comment="" />
+      <created>1615921765483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615921765483</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="13" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616457709407">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="13" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1616457709407" />
+    <state x="363" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1616459521953">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="363" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1616459521953" />
+    <state x="435" y="197" key="AndroidProcessChooserDialog" timestamp="1615941617679">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="435" y="197" key="AndroidProcessChooserDialog/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1615941617679" />
+    <state x="360" y="187" key="FileChooserDialogImpl" timestamp="1615923775243">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="360" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1615923775243" />
+    <state width="1152" height="148" key="GridCell.Tab.0.bottom" timestamp="1616505099892">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1152" height="148" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1616505099892" />
+    <state width="987" height="150" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1366.768@1920.0.1366.768" timestamp="1616467237173" />
+    <state width="1152" height="148" key="GridCell.Tab.0.center" timestamp="1616505099892">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1152" height="148" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1616505099892" />
+    <state width="987" height="150" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1366.768@1920.0.1366.768" timestamp="1616467237173" />
+    <state width="1152" height="148" key="GridCell.Tab.0.left" timestamp="1616505099891">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1152" height="148" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1616505099891" />
+    <state width="987" height="150" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1366.768@1920.0.1366.768" timestamp="1616467237172" />
+    <state width="1152" height="148" key="GridCell.Tab.0.right" timestamp="1616505099892">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1152" height="148" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1616505099892" />
+    <state width="987" height="150" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1366.768@1920.0.1366.768" timestamp="1616467237173" />
+    <state x="1990" y="13" key="SettingsEditor" timestamp="1615931315361">
+      <screen x="1920" y="0" width="1366" height="768" />
+    </state>
+    <state x="1990" y="13" key="SettingsEditor/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1615931315361" />
+    <state x="480" y="113" width="953" height="657" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1616501186425">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="480" y="113" width="953" height="657" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1616501186425" />
+    <state x="2347" y="100" width="847" height="584" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.864/1920.0.1366.768@1920.0.1366.768" timestamp="1616467231305" />
+    <state x="276" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1616501175388">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="276" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1366.768@0.0.1536.864" timestamp="1616501175388" />
+  </component>
+</project>
