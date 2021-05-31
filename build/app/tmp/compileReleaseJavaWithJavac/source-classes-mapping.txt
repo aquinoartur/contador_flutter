@@ -1,6 +1,0 @@
-br/com/adelmoaquino/contador_pessoas/MainActivity.java
- br.com.adelmoaquino.contador_pessoas.MainActivity
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-br/com/adelmoaquino/contador_pessoas/BuildConfig.java
- br.com.adelmoaquino.contador_pessoas.BuildConfig
