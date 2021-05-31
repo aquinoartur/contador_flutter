@@ -1,6 +1,8 @@
 # Contador App
  Um simples contador  para contabilizar  os dias de estudo em Flutter :)
  
+ A motivação desse app se deu devido ao fato de, na época de sua construção, eu estar apenas iniciando os estudos em Flutter, portanto eu quis desenvolver algo que pudesse utilizar no meu aparelho e que me motivasse a manter regularidade nos estudos.
+ 
   <p align="center">
  <img  width="300" height="625" src="assets/to_readme/presentation.gif">
  <p/>
